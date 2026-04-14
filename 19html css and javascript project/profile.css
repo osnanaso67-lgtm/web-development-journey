@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.profile-card{
+    width: 350px;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    text-align: center;
+    padding: 20px;
+   
+    margin-top: 20px;
+
+}
+.profile-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+        box-shadow: 0px 0px 10px #471111;
+
+}
+.about h1{
+    font-size: 30px;
+   font-weight: bolder;
+   margin-top: 10px;
+}
+.about p{
+    font-size: 15px;
+    color: rgb(228, 26, 26);
+    margin-bottom: 10px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.profile-info h2{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-style: italic;
+   text-transform: uppercase;
+   color: rgb(0, 0, 0);
+
+
+}
+.profile-info p{
+    font-size: 20px;
+     font-weight: bolder;
+     color: rgb(218, 36, 36);
+     margin-bottom: 5px;
+}
+.info p{
+    font-size: 15px;
+     font-weight: bolder;
+     color: rgb(221, 0, 0);
+     margin-bottom: 10px;
+     text-align: justify;
+     line-height: 1.5;
+
+}
+.icons{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+    
+.icons i{
+    color: white;
+    background-color: rgb(247, 9, 247);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px #471111;
+}
